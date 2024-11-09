@@ -1,0 +1,6 @@
+import math
+
+r = int(input("Enter the radius of the cylinder: "))
+h = int(input("Enter the height: "))
+CSA = 2 * math.pi * r * h
+print("The curved surface area of the cylinder is", CSA)
